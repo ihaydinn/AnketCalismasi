@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ihaydin.ankettezcalismasi.GunlukAnketeKatil"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/btnGunlukHayatAnket"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:onClick="clickGunlukHayatAnket"
+        android:text="Anketi Gönder"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGunlukHayatAnket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editSoru1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Alış Verişlerinizi Nereden Yaparsınız?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Boş Zamanlarınızda Neler Yaparsınız?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Hayattaki Amacınız Nedir?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Hayattaki En Büyük Korkunuz Nedir?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="İdeal Bir Lider Nasıl Olmalıdır?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="İstanbul'da Yaşanır Mı?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Nerede Asla Yaşamam Dersiniz?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Nerede Yaşamak İsterdiniz?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Ruh Haliniz Bu Aralar Nasıl?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editSoru10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Uykusuzluk Sorunu Yaşıyor Musunuz?"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

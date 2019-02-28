@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka_plan"
+    tools:context="com.ihaydin.ankettezcalismasi.KayitOl">
+
+    <EditText
+        android:id="@+id/editSignUpmail"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="91dp"
+        android:backgroundTint="@android:color/background_light"
+        android:ems="10"
+        android:hint="E-Mail Adresiniz"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editSignUpPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="@android:color/background_light"
+        android:ems="10"
+        android:hint="Şifreniz"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSignUpmail" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/giris_ve_kayit_buttonu"
+        android:onClick="signUp"
+        android:text="Kayıt Ol"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSignUpPass" />
+</android.support.constraint.ConstraintLayout>

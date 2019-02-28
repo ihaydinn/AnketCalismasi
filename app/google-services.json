@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "80098567411",
+    "firebase_url": "https://ankettezcalismasi-merveler.firebaseio.com",
+    "project_id": "ankettezcalismasi-merveler",
+    "storage_bucket": "ankettezcalismasi-merveler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80098567411:android:6c0f0e377f77e724",
+        "android_client_info": {
+          "package_name": "com.mervesonmez.ankettezcalismasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80098567411-6p4824m48n6q9slikcuuegbt9lk1l2uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mervesonmez.ankettezcalismasi",
+            "certificate_hash": "49e9a83f52ea2aeef52ed2afc0ec29d1f4fb43af"
+          }
+        },
+        {
+          "client_id": "80098567411-ilm312ouo3bep513q4k5p3o68dg8b99n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg7IqgV5kTRxDRIt2zAuGV6YqKjYhdugY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80098567411-ilm312ouo3bep513q4k5p3o68dg8b99n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
